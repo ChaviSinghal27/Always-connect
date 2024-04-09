@@ -32,10 +32,18 @@ export default function Bookmark() {
       <div className="bookmark-left">
         <Leftbar />
       </div>
-      <div className="bookmark-right">
-        {bookmarkedPost.map((p) => (
-          <Post key={p._id} post={p} />
-        ))}
+
+      <div>
+        <div className="header">BOOKMARK</div>
+        {bookmarkedPost.length === 0 ? (
+          <div className="no-post">NO POST !!</div>
+        ) : (
+          <div className="bookmark-right">
+            {bookmarkedPost.map((p) => (
+              <Post key={p._id} post={p} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

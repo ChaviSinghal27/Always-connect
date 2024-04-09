@@ -26,6 +26,7 @@ export default function Explore() {
         <Leftbar />
       </div>
       <div className="leftbar-right">
+        <div className="header">EXPLORE</div>
         {posts.map((p) => (
           <Post key={p._id} post={p} />
         ))}
