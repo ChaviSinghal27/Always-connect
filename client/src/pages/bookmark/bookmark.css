@@ -1,0 +1,13 @@
+.bookmark-wrapper {
+  display: flex;
+}
+
+.bookmark-left {
+  width: 300px;
+}
+
+.bookmark-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

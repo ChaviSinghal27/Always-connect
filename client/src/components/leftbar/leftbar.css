@@ -1,0 +1,33 @@
+.leftbar {
+  height: 650px;
+}
+
+.leftbarWrapper {
+  box-shadow: 10px 11px 23px -3px rgba(82, 80, 80, 0.75);
+  -webkit-box-shadow: 10px 11px 23px -3px rgba(82, 80, 80, 0.75);
+  -moz-box-shadow: 10px 11px 23px -3px rgba(82, 80, 80, 0.75);
+  text-align: left;
+  padding: 10px 20px;
+  height: 100%;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  align-items: center;
+  color: black;
+  font-size: 1.2em;
+  padding-bottom: 20px;
+}
+
+.leftbar-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  text-decoration: none;
+  color: black;
+}
+.leftbar-text {
+  margin-top: 20px;
+}

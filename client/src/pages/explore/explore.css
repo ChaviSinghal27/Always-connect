@@ -1,0 +1,13 @@
+.leftbar-wrapper {
+  display: flex;
+}
+
+.leftbar-left {
+  width: 500px;
+}
+
+.leftbar-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

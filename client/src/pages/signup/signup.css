@@ -1,0 +1,73 @@
+.signupWrapper {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.signupLeft {
+  flex: 4;
+}
+
+.signupLogo {
+  color: #3b82f6;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.signupAbout {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.signupRight {
+  flex: 5;
+  width: 100%;
+}
+
+.signupBox {
+  border: 1px solid black;
+  height: 300px;
+  width: 40%;
+  margin: 0 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 20px;
+  align-items: center;
+  border: none;
+  background-color: white;
+}
+.signupInput {
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: 90%;
+  border: 0.5px solid gray;
+}
+
+.signupInput:focus {
+  outline: none;
+}
+.signupButton {
+  padding: 7px 5px;
+  border-radius: 5px;
+  background-color: #3b82f6;
+  font-size: 1em;
+  width: 100%;
+  border: none;
+}
+
+.loginButton {
+  padding: 7px 5px;
+  border-radius: 5px;
+  background-color: green;
+  font-size: 1em;
+  width: 100%;
+  align-self: center;
+  border: none;
+}
+
+.signupText {
+  font-size: 0.85em;
+}

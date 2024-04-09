@@ -1,0 +1,93 @@
+.profilePage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profileMiddle {
+  flex: 5;
+  margin-top: 10px;
+}
+
+.profileMidTop {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 10px 11px 23px -3px rgba(82, 80, 80, 0.75);
+  -webkit-box-shadow: 10px 11px 23px -3px rgba(82, 80, 80, 0.75);
+  -moz-box-shadow: 10px 11px 23px -3px rgba(82, 80, 80, 0.75);
+  width: 100%;
+  position: relative;
+}
+
+.coverimg {
+  width: 100%;
+  height: 200px;
+}
+
+.profileMidBottom {
+  width: 100%;
+  height: 200px;
+}
+.userCover {
+  height: 200px;
+  width: 100%;
+}
+
+.profileImg {
+  position: absolute;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  left: 5px;
+}
+
+.profileImgDiv {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  left: 2px;
+  top: 140px;
+}
+
+.userName {
+  position: absolute;
+  top: 220px;
+  left: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.userDesc {
+  position: absolute;
+  bottom: 120px;
+  left: 10px;
+}
+.aboutUser {
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 1em;
+  gap: 20px;
+  align-items: center;
+}
+.profileLeft {
+  flex: 3;
+}
+
+.profileRight {
+  flex: 4;
+}
+
+.followButton {
+  background-color: #3b82f6;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}

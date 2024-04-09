@@ -1,0 +1,44 @@
+.navbar {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3b82f6;
+  padding-top: 10px;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 2;
+  color: white;
+}
+
+.nav {
+  height: 60px;
+}
+.navbar-left {
+  display: flex;
+  flex: 3;
+  text-align: left;
+
+  padding-left: 15px;
+  align-items: center;
+}
+
+.navbar-right {
+  align-items: center;
+
+  display: flex;
+
+  padding-right: 30px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.navbar-middle {
+  flex: 5;
+}
+
+.navbar-right img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
